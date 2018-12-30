@@ -1,0 +1,42 @@
+{
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "eslint.autoFixOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/assets": true,
+    "**/dist": true,
+    "**/prod": true,
+    "**/vendor": true
+  },
+  "editor.snippetSuggestions": "top",
+  "vsicons.presets.angular": false,
+  "workbench.colorTheme": "Ember Frost",
+  "editor.formatOnSave": true,
+  "html.format.enable": true,
+  "html.format.indentHandlebars": true,
+  "editor.tabSize": 2,
+  "html.format.maxPreserveNewLines": 0,
+  "editor.detectIndentation": false,
+  "path-intellisense.mappings": {
+    "adopt-a-package": "${workspaceRoot}/app"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/.watchmanconfig": true,
+    "**/.npmignore": true,
+    "**/.travis.yml": true,
+    "**/LICENSE.md": true
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  }
+}
