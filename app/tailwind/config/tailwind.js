@@ -1,32 +1,32 @@
-import container from 'tailwindcss/plugins/container';
+import container from "tailwindcss/plugins/container";
 
-import colors from './colors';
-import screens from './screens';
-import fonts from './fonts';
-import textSizes from './text-sizes';
-import fontWeights from './font-weights';
-import leading from './line-height';
-import tracking from './letter-spacing';
-import textColors from './text-colors';
-import backgroundColors from './background-colors';
-import backgroundSize from './background-size';
-import borderWidths from './border-widths';
-import borderColors from './border-colors';
-import borderRadius from './border-radius';
-import width from './width';
-import height from './height';
-import minWidth from './min-width';
-import minHeight from './min-height';
-import maxWidth from './max-width';
-import maxHeight from './max-height';
-import padding from './padding';
-import margin from './margin';
-import negativeMargin from './negative-margin';
-import shadows from './shadows';
-import zIndex from './z-index';
-import opacity from './opacity';
-import svgFill from './svg-fill';
-import svgStroke from './svg-stroke';
+import colors from "./colors";
+import screens from "./screens";
+import fonts from "./fonts";
+import textSizes from "./text-sizes";
+import fontWeights from "./font-weights";
+import leading from "./line-height";
+import tracking from "./letter-spacing";
+import textColors from "./text-colors";
+import backgroundColors from "./background-colors";
+import backgroundSize from "./background-size";
+import borderWidths from "./border-widths";
+import borderColors from "./border-colors";
+import borderRadius from "./border-radius";
+import width from "./width";
+import height from "./height";
+import minWidth from "./min-width";
+import minHeight from "./min-height";
+import maxWidth from "./max-width";
+import maxHeight from "./max-height";
+import padding from "./padding";
+import margin from "./margin";
+import negativeMargin from "./negative-margin";
+import shadows from "./shadows";
+import zIndex from "./z-index";
+import opacity from "./opacity";
+import svgFill from "./svg-fill";
+import svgStroke from "./svg-stroke";
 
 export default {
   colors,
@@ -58,53 +58,53 @@ export default {
   svgStroke,
 
   modules: {
-    appearance: ['responsive'],
-    backgroundAttachment: ['responsive'],
-    backgroundColors: ['responsive', 'hover', 'focus'],
-    backgroundPosition: ['responsive'],
-    backgroundRepeat: ['responsive'],
-    backgroundSize: ['responsive'],
+    appearance: ["responsive"],
+    backgroundAttachment: ["responsive"],
+    backgroundColors: ["responsive", "hover", "focus"],
+    backgroundPosition: ["responsive"],
+    backgroundRepeat: ["responsive"],
+    backgroundSize: ["responsive"],
     borderCollapse: [],
-    borderColors: ['responsive', 'hover', 'focus'],
-    borderRadius: ['responsive'],
-    borderStyle: ['responsive'],
-    borderWidths: ['responsive'],
-    cursor: ['responsive'],
-    display: ['responsive'],
-    flexbox: ['responsive'],
-    float: ['responsive'],
-    fonts: ['responsive'],
-    fontWeights: ['responsive', 'hover', 'focus'],
-    height: ['responsive'],
-    leading: ['responsive'],
-    lists: ['responsive'],
-    margin: ['responsive'],
-    maxHeight: ['responsive'],
-    maxWidth: ['responsive'],
-    minHeight: ['responsive'],
-    minWidth: ['responsive'],
-    negativeMargin: ['responsive'],
-    opacity: ['responsive'],
-    outline: ['focus'],
-    overflow: ['responsive'],
-    padding: ['responsive'],
-    pointerEvents: ['responsive'],
-    position: ['responsive'],
-    resize: ['responsive'],
-    shadows: ['responsive', 'hover', 'focus'],
+    borderColors: ["responsive", "hover", "focus"],
+    borderRadius: ["responsive"],
+    borderStyle: ["responsive"],
+    borderWidths: ["responsive"],
+    cursor: ["responsive"],
+    display: ["responsive"],
+    flexbox: ["responsive"],
+    float: ["responsive"],
+    fonts: ["responsive"],
+    fontWeights: ["responsive", "hover", "focus"],
+    height: ["responsive"],
+    leading: ["responsive"],
+    lists: ["responsive"],
+    margin: ["responsive"],
+    maxHeight: ["responsive"],
+    maxWidth: ["responsive"],
+    minHeight: ["responsive"],
+    minWidth: ["responsive"],
+    negativeMargin: ["responsive"],
+    opacity: ["responsive"],
+    outline: ["focus"],
+    overflow: ["responsive"],
+    padding: ["responsive"],
+    pointerEvents: ["responsive"],
+    position: ["responsive"],
+    resize: ["responsive"],
+    shadows: ["responsive", "hover", "focus"],
     svgFill: [],
     svgStroke: [],
-    textAlign: ['responsive'],
-    textColors: ['responsive', 'hover', 'focus'],
-    textSizes: ['responsive'],
-    textStyle: ['responsive', 'hover', 'focus'],
-    tracking: ['responsive'],
-    userSelect: ['responsive'],
-    verticalAlign: ['responsive'],
-    visibility: ['responsive'],
-    whitespace: ['responsive'],
-    width: ['responsive'],
-    zIndex: ['responsive']
+    textAlign: ["responsive"],
+    textColors: ["responsive", "hover", "focus"],
+    textSizes: ["responsive"],
+    textStyle: ["responsive", "hover", "focus"],
+    tracking: ["responsive"],
+    userSelect: ["responsive"],
+    verticalAlign: ["responsive"],
+    visibility: ["responsive"],
+    whitespace: ["responsive"],
+    width: ["responsive"],
+    zIndex: ["responsive"]
   },
 
   /*
@@ -139,8 +139,8 @@ export default {
   */
 
   options: {
-    prefix: '',
+    prefix: "tw-",
     important: false,
-    separator: ':'
+    separator: ":"
   }
 };

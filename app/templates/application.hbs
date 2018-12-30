@@ -1,5 +1,58 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+{{#paper-toolbar as |toolbar|}}
+  {{#toolbar.tools}}
+    {{#paper-button mini=true aria-label="Logo"}}
+      {{paper-icon "favorite"}}
+    {{/paper-button}}
+    <h2>
+      Adopt A Package
+    </h2>
+    <span class="flex"></span>
+    {{#paper-button raised=true}}
+      Learn More
+    {{/paper-button}}
+    {{#paper-button mini=true aria-label="Favorite"}}
+      {{paper-icon "favorite"}}
+    {{/paper-button}}
+  {{/toolbar.tools}}
+{{/paper-toolbar}}
+<div class="layout-row flex">
+  <div class="flex tw-text-center">
+    <a
+      href="https://docs.google.com/spreadsheets/d/1_then4fvnm7Va48QFjLMR3g0ElOgwIdAh3xlv3lmLyY/edit?usp=sharing"
+    >
+      {{#paper-button raised=true primary=true}}
+        View All Packages
+      {{/paper-button}}
+    </a>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSci4qMjqZlWRujMbSih8QIP-CilSUiR6ZonpGQF02jlUp1GUA/viewform?embedded=true"
+      width="640"
+      height="1295"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Loading...
+    </iframe>
+  </div>
+  <div class="flex tw-text-center">
+    <a
+      href="https://docs.google.com/spreadsheets/d/1cdD4Z0Ir8-Ih5555OFP4lTeEbjgTrT0vZziZOC7xunA/edit?usp=sharing"
+    >
+      {{#paper-button raised=true accent=true}}
+        View All Adopters
+      {{/paper-button}}
+    </a>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSc-ep1SRTNr8YHUtO-ukAzYOVSRJ9e-D9B4hAHZvP7O6x5k8g/viewform?embedded=true"
+      width="640"
+      height="1295"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Loading...
+    </iframe>
+  </div>
+</div>
 {{outlet}}
